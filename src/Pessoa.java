@@ -8,4 +8,16 @@ public class Pessoa {
         this.genero = genero;
         this.idade = idade;
     }
+    public String getNome() {
+        return nome;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
 }
