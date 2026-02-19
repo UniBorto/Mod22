@@ -16,6 +16,6 @@ public class TesteUTL {
                 .toList();
 
         assertEquals(1, mulheres.size());
-        assertEquals("Ana", mulheres.get(0).getNome());
+        assertEquals("Ana", mulheres.getFirst().getNome());
     }
 }
